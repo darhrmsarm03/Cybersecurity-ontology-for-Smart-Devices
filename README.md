@@ -1,1 +1,3 @@
-#Cybersecurity ontology for Smart Devices
+**Cybersecurity ontology for Smart Devices (Semantic Web Technologies)
+
+**Smart Homes, a subset of internet of things, gives everyone the opportunity to experience the benefits of high-tech home life. These smart devices use sensors as a form of controlling these systems in a network which are prone to challenges of sensitive information prone to malicious users. The main aim of this paper presents an approach to model ontology for Smart home ontology to monitor changes within the home using these devices sensor demonstrated using a Resource Definition Framework (RDF) and Web Ontology Language (OWL) semantic web technologies.
