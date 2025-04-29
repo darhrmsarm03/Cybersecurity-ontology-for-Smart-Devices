@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/macbook/ontologies/2021/4/smart_home"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/macbook/ontologies/2021/4/smart_home">
+    <Prefix name="" IRI="http://www.semanticweb.org/macbook/ontologies/2021/4/smart_home"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remarks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attributeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observedAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#onDevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#remarkedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ac_alertOn/ac_alertOff"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#remarkValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#safeLow/safeHigh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllRooms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heating_System"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lighting_System"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Refrigerator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security_system"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#checkLuminens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#checkPower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#checkTemperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sensePower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sense_illuminance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#Main_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device"/>
+        <Class IRI="#Main_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensors"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#AllRooms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remarks"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#Fridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Architecture"/>
+        <NamedIndividual IRI="#Heating_System"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Architecture"/>
+        <NamedIndividual IRI="#Lighting_System"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#PC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Remarks"/>
+        <NamedIndividual IRI="#Refrigerator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Architecture"/>
+        <NamedIndividual IRI="#Security_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Value"/>
+        <NamedIndividual IRI="#checkLuminens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Value"/>
+        <NamedIndividual IRI="#checkPower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Value"/>
+        <NamedIndividual IRI="#checkTemperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensors"/>
+        <NamedIndividual IRI="#sensePower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensors"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensors"/>
+        <NamedIndividual IRI="#sense_illuminance"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#observedAttribute"/>
+        <NamedIndividual IRI="#AllRooms"/>
+        <NamedIndividual IRI="#sensePower"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#connectedSystem"/>
+        <NamedIndividual IRI="#Computer"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ac_alertOn/ac_alertOff"/>
+        <NamedIndividual IRI="#Fridge"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOf"/>
+        <NamedIndividual IRI="#Heating_System"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ac_alertOn/ac_alertOff"/>
+        <NamedIndividual IRI="#Lighting_System"/>
+        <NamedIndividual IRI="#sense_illuminance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ac_alertOn/ac_alertOff"/>
+        <NamedIndividual IRI="#PC"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#observedAttribute"/>
+        <NamedIndividual IRI="#Refrigerator"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#observes"/>
+        <NamedIndividual IRI="#Security_system"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOf"/>
+        <NamedIndividual IRI="#checkLuminens"/>
+        <NamedIndividual IRI="#sense_illuminance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOf"/>
+        <NamedIndividual IRI="#checkPower"/>
+        <NamedIndividual IRI="#sensePower"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOf"/>
+        <NamedIndividual IRI="#checkTemperature"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#observedAttribute"/>
+        <NamedIndividual IRI="#sensePower"/>
+        <NamedIndividual IRI="#sensePower"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#observes"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#onDevice"/>
+        <NamedIndividual IRI="#sense_illuminance"/>
+        <NamedIndividual IRI="#sense_illuminance"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#AllRooms"/>
+        <Literal>Watts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mode"/>
+        <NamedIndividual IRI="#AllRooms"/>
+        <Literal>Economy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#remarkValue"/>
+        <NamedIndividual IRI="#Computer"/>
+        <Literal>the computer temperature should not exceeed 50 degree</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#Fridge"/>
+        <Literal>Celsius</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mode"/>
+        <NamedIndividual IRI="#Fridge"/>
+        <Literal>Economy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#remarkValue"/>
+        <NamedIndividual IRI="#Heating_System"/>
+        <Literal>the temperature should not exceed 50 degrees</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mode"/>
+        <NamedIndividual IRI="#Lighting_System"/>
+        <Literal>Economy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#Refrigerator"/>
+        <Literal>Celsius</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#remarkValue"/>
+        <NamedIndividual IRI="#Security_system"/>
+        <Literal>disconnects all systems if temperature greater than 50 degrees celsius</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#safeLow/safeHigh"/>
+        <NamedIndividual IRI="#Security_system"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#checkLuminens"/>
+        <Literal>Lux (luminen)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#checkPower"/>
+        <Literal>Watt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasType"/>
+        <NamedIndividual IRI="#checkTemperature"/>
+        <Literal>Celsius</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#remarkValue"/>
+        <NamedIndividual IRI="#sensePower"/>
+        <Literal>Should not exceed 200Watt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#safeLow/safeHigh"/>
+        <NamedIndividual IRI="#senseTemperature"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#remarkValue"/>
+        <NamedIndividual IRI="#sense_illuminance"/>
+        <Literal>the value should not exceed 0.20 lumens for LED bulbs</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attributeOf"/>
+        <Class IRI="#Architecture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connectedSystem"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observedAttribute"/>
+        <Class IRI="#Remarks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observes"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#onDevice"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remarkedBy"/>
+        <Class IRI="#Remarks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attributeOf"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connectedSystem"/>
+        <Class IRI="#Architecture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observedAttribute"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observes"/>
+        <Class IRI="#Architecture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#onDevice"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remarkedBy"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ac_alertOn/ac_alertOff"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasType"/>
+        <Class IRI="#Value"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#remarkValue"/>
+        <Class IRI="#Remarks"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#safeLow/safeHigh"/>
+        <Class IRI="#Sensors"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#remarkValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#safeLow/safeHigh"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#senseTemperature</IRI>
+        <Literal>senses refreigerator temperature</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
