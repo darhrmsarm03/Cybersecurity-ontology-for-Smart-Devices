@@ -10,7 +10,7 @@ Towards that end, proposing using a mixture of both innovations as currently pro
 ##SEMANTIC WEB
 The structured architecture that enables applications to share information across many domains, with a focus on business and government systems. The focus of web semantic systems is on the framework for resource description (RDF), which incorporates XML applications of URI types.
 
-***The Internet of Things (IoT) and Cloud Services in the Smart Household
+**The Internet of Things (IoT) and Cloud Services in the Smart Household
 IoT describes a prospect where a wide range of sensory devices and objects surrounding, like sensors, RFID tags, placement amenities, and portable devices, will be linked to the Internet, allowing these artifacts and gadgets to interact, work cooperatively, and interact in socioeconomic, ecological, and user contexts to accomplish project goals.
 
 **Cloud Architecture Model with Multiple Layers for IoT-based Home Automation
