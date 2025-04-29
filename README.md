@@ -32,3 +32,10 @@ The Device class has three systems which are All Rooms, Fridge and PC. The Archi
 remarkedBy: show the relationship between a remark and a Sensor
 attributeOf: shows the relationship between the Architecture and the Device
 
+**Data Properties include
+remarkValue: displays the value that the sensor generated
+hasType: a property unit.
+Mode: displays which mode is applied to the device
+Low/High Safety: describes the max and min limits of the expected value for a Sensor
+
+The project summarizes and describes the basic ontology scheme of a Smart home security Ontology using device sensory application process. The project was design using a software called Protege using OWL, RDFS, RDF, RDF GRAPH executing SPARQL queries to collect and manipulate data.
