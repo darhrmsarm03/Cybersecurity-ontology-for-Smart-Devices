@@ -18,7 +18,7 @@ With an ever-increasing number of data outlets in home automation, organized num
 
 <p align="center">
   <img src="Image/image1.png" alt="alt text" />
-  *Figure 1: The IoT-based smart home's tiered cloud architecture paradigm*.
+  *Figure 1:* The IoT-based smart home's tiered cloud architecture paradigm.
 </p>
 
 
