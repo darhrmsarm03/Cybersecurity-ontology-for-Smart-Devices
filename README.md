@@ -28,6 +28,10 @@ The layered design of our suggested cloud architecture paradigm for IoT-based sm
 
 This ontology is called a sensor network ontology for a smart home. It is a basic simulation for home use for systems such as Home Appliances, Heating systems and Security systems. All devices are connected to communicate and there is a main system control (master node).
 
+<p align="center">
+  <img src="Image/image.png" alt="alt text" />
+</p>
+
 - The main classes
   - Main Entity: a generic class for the physical items which is subdivided into the ontology Architecture and Devices.
   - Sensor: a subclass of the architecture for sensing.
