@@ -40,12 +40,17 @@ This ontology is called a sensor network ontology for a smart home. It is a basi
 The Device class has three systems which are All Rooms, Fridge and PC. The Architecture is made of 3 individuals; Heating, Lighting and security systems
 
 **Object Properties include**
-connectedSystems: shows the relationship between a Device and Architecture
-observedAttribute: displays which attributes is observed
-observes: the relationship between a sensor and an attribute that the sensor observes
-onDevice: relationship between a system; like an example a Sensor and a device.
-remarkedBy: show the relationship between a remark and a Sensor
-attributeOf: shows the relationship between the Architecture and the Device
+
+- connectedSystems: shows the relationship between a Device and Architecture
+- observedAttribute: displays which attributes is observed
+- observes: the relationship between a sensor and an attribute that the sensor observes
+- onDevice: relationship between a system; like an example a Sensor and a device.
+- remarkedBy: show the relationship between a remark and a Sensor
+- attributeOf: shows the relationship between the Architecture and the Device
+
+<p align="center">
+  <img src="Image/image2.png alt="alt text" />
+</p>
 
 \*\*Data Properties include
 remarkValue: displays the value that the sensor generated
