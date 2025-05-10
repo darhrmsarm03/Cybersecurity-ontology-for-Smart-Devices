@@ -2,7 +2,8 @@
 
 This ontology is called a sensor network ontology for a smart home. It is a basic simulation for home use for systems such as Home Appliances, Heating systems and Security systems. All devices are connected to communicate and there is a main system control (master node).
 
-##SEMANTIC WEB
+### SEMANTIC WEB
+
 The structured architecture that enables applications to share information across many domains, with a focus on business and government systems. The focus of web semantic systems is on the framework for resource description (RDF), which incorporates XML applications of URI types.
 
 \*\*The Internet of Things (IoT) and Cloud Services in the Smart Household
