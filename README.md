@@ -6,7 +6,8 @@ This ontology is called a sensor network ontology for a smart home. It is a basi
 
 The structured architecture that enables applications to share information across many domains, with a focus on business and government systems. The focus of web semantic systems is on the framework for resource description (RDF), which incorporates XML applications of URI types.
 
-\*\*The Internet of Things (IoT) and Cloud Services in the Smart Household
+#### The Internet of Things (IoT) and Cloud Services in the Smart Household
+
 IoT describes a prospect where a wide range of sensory devices and objects surrounding, like sensors, RFID tags, placement amenities, and portable devices, will be linked to the Internet, allowing these artifacts and gadgets to interact, work cooperatively, and interact in socioeconomic, ecological, and user contexts to accomplish project goals.
 
 Cloud hosting is used to alter home care and applications inside the smart home arena. While more home systems from multiple retailers are outfitted with the on components that can connect to the Internet, innovative approaches for combining advanced home routers, associated devices, on- board components in home devices, household routers, and cloud computing for developing beautiful clouds have emerged.
