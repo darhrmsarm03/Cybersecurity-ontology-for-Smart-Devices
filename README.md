@@ -55,7 +55,7 @@ The Device class has three systems which are All Rooms, Fridge and PC. The Archi
 - attributeOf: shows the relationship between the Architecture and the Device
 
 <p align="center">
-  <img src="Image/image2.png alt="alt text" />
+  <img src="Image/image2.png" alt="alt text" />
 </p>
 
 Figure 2 describes the Object property of observes
@@ -68,13 +68,13 @@ Figure 2 describes the Object property of observes
 - Low/High Safety: describes the max and min limits of the expected value for a Sensor
 
 <p align="center">
-  <img src="Image/image3.png alt="alt text" />
+  <img src="Image/image3.png" alt="alt text" />
 </p>
 
 Figure 3: describes the Data properties
 
 <p align="center">
-  <img src="Image/image5.png alt="alt text" />
+  <img src="Image/image5.png" alt="alt text" />
 </p>
 
 Figure 4: shows the Individuals are created for each class, and each class can have multiple individuals from other classes
@@ -84,7 +84,7 @@ Figure 4: shows the Individuals are created for each class, and each class can h
 The SPARQL Protocol is an RDF query language for databases that is used to gather and act on reserved data, which is represented as the Resource Description Framework's Object, Predicate, and Subject (RDF).
 
 <p align="center">
-  <img src="Image/image6.png alt="alt text" />
+  <img src="Image/image6.png" alt="alt text" />
 </p>
 
 ## Conclusion
