@@ -79,7 +79,7 @@ Figure 3: describes the Data properties
 
 Figure 4: shows the Individuals are created for each class, and each class can have multiple individuals from other classes
 
-### SPARQL Query
+#### SPARQL Query
 
 The SPARQL Protocol is an RDF query language for databases that is used to gather and act on reserved data, which is represented as the Resource Description Framework's Object, Predicate, and Subject (RDF).
 
