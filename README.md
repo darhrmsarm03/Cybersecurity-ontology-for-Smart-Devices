@@ -73,4 +73,8 @@ Figure 2 describes the Object property of observes
 
 Figure 3: describes the Data properties
 
+<p align="center">
+  <img src="Image/image5.png alt="alt text" />
+</p>
+
 The project summarizes and describes the basic ontology scheme of a Smart home security Ontology using device sensory application process. The project was design using a software called Protege using OWL, RDFS, RDF, RDF GRAPH executing SPARQL queries to collect and manipulate data.
