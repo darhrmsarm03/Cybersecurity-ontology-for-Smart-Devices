@@ -52,6 +52,8 @@ The Device class has three systems which are All Rooms, Fridge and PC. The Archi
   <img src="Image/image2.png alt="alt text" />
 </p>
 
+Figure 2 describes the Object property of observes
+
 **Data Properties include**
 
 - remarkValue: displays the value that the sensor generated
