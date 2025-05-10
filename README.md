@@ -32,13 +32,14 @@ This ontology is called a sensor network ontology for a smart home. It is a basi
   <img src="Image/image.png" alt="alt text" />
 </p>
 
-- The main classes
-  - Main Entity: a generic class for the physical items which is subdivided into the ontology Architecture and Devices.
-  - Sensor: a subclass of the architecture for sensing.
+**The main classes**
+
+- Main Entity: a generic class for the physical items which is subdivided into the ontology Architecture and Devices.
+- Sensor: a subclass of the architecture for sensing.
 
 The Device class has three systems which are All Rooms, Fridge and PC. The Architecture is made of 3 individuals; Heating, Lighting and security systems
 
-\*\*Object Properties include
+**Object Properties include**
 connectedSystems: shows the relationship between a Device and Architecture
 observedAttribute: displays which attributes is observed
 observes: the relationship between a sensor and an attribute that the sensor observes
