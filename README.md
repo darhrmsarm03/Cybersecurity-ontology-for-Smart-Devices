@@ -24,6 +24,12 @@ Figure 1: The IoT-based smart home's tiered cloud architecture paradigm.
 
 The layered design of our suggested cloud architecture paradigm for IoT-based smart homes is depicted in Figure 1. In general, various levels serve distinct functions, while the lower levels serve as basic supports for the higher levels. Various IoT devices, such as sensors, controllers, controls, cell phones, and other household appliances, interact by merging behind a single cloud-based system and utilizing available wireless like Bluetooth, ZigBee, Wi-Fi, LTE, etc., and cable mobile networks.
 
+### Smart home automation concept to its lowest level
+
+<p align="center">
+  <img src="Image/image4.png" alt="alt text" />
+</p>
+
 #### Ontology Model for Smart Home devices
 
 This ontology is called a sensor network ontology for a smart home. It is a basic simulation for home use for systems such as Home Appliances, Heating systems and Security systems. All devices are connected to communicate and there is a main system control (master node).
