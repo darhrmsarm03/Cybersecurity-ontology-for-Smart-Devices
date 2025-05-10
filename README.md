@@ -87,9 +87,7 @@ The SPARQL Protocol is an RDF query language for databases that is used to gathe
   <img src="Image/image6.png" alt="alt text" />
 </p>
 
-<p align="center">
-  *Figure 1: The IoT-based smart home's tiered cloud architecture paradigm.*
-</p>
+
 
 ### Conclusion
 
