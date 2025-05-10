@@ -87,6 +87,6 @@ The SPARQL Protocol is an RDF query language for databases that is used to gathe
   <img src="Image/image6.png" alt="alt text" />
 </p>
 
-## Conclusion
+### Conclusion
 
 The project summarizes and describes the basic ontology scheme of a Smart home security Ontology using device sensory application process. The project was design using a software called Protege using OWL, RDFS, RDF, RDF GRAPH executing SPARQL queries to collect and manipulate data.
