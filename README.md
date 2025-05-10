@@ -18,10 +18,10 @@ With an ever-increasing number of data outlets in home automation, organized num
 
 <p align="center">
   <img src="Image/image1.png" alt="alt text" />
-  *Figure 1:* The IoT-based smart home's tiered cloud architecture paradigm.
 </p>
-
-
+<p align="center">
+ *Figure 1:* The IoT-based smart home's tiered cloud architecture paradigm.*
+</p>
 
 The layered design of our suggested cloud architecture paradigm for IoT-based smart homes is depicted in Figure 1. In general, various levels serve distinct functions, while the lower levels serve as basic supports for the higher levels. Various IoT devices, such as sensors, controllers, controls, cell phones, and other household appliances, interact by merging behind a single cloud-based system and utilizing available wireless technologies like Bluetooth, ZigBee, Wi-Fi, LTE, etc., and cable and mobile networks.
 
