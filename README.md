@@ -79,4 +79,12 @@ Figure 3: describes the Data properties
 
 Figure 4: shows the Individuals are created for each class, and each class can have multiple individuals from other classes
 
+### SPARQL Query
+
+The SPARQL Protocol is an RDF query language for databases that is used to gather and act on reserved data, which is represented as the Resource Description Framework's Object, Predicate, and Subject (RDF).
+
+<p align="center">
+  <img src="Image/image6.png alt="alt text" />
+</p>
+
 The project summarizes and describes the basic ontology scheme of a Smart home security Ontology using device sensory application process. The project was design using a software called Protege using OWL, RDFS, RDF, RDF GRAPH executing SPARQL queries to collect and manipulate data.
