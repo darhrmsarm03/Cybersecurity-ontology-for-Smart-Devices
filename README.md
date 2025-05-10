@@ -19,9 +19,8 @@ With an ever-increasing number of data outlets in home automation, organized num
 <p align="center">
   <img src="Image/image1.png" alt="alt text" />
 </p>
-<p align="center">
+
  *Figure 1: The IoT-based smart home's tiered cloud architecture paradigm.*
-</p>
 
 The layered design of our suggested cloud architecture paradigm for IoT-based smart homes is depicted in Figure 1. In general, various levels serve distinct functions, while the lower levels serve as basic supports for the higher levels. Various IoT devices, such as sensors, controllers, controls, cell phones, and other household appliances, interact by merging behind a single cloud-based system and utilizing available wireless technologies like Bluetooth, ZigBee, Wi-Fi, LTE, etc., and cable and mobile networks.
 
@@ -59,7 +58,7 @@ The Device class has three systems which are All Rooms, Fridge, and PC. The Arch
   <img src="Image/image2.png" alt="alt text" />
 </p>
 
-Figure 2 describes the Object property of observes
+*Figure 2 describes the Object property of observes.*
 
 **Data Properties include**
 
@@ -72,13 +71,13 @@ Figure 2 describes the Object property of observes
   <img src="Image/image3.png" alt="alt text" />
 </p>
 
-Figure 3 describes the Data properties
+*Figure 3 describes the Data properties.*
 
 <p align="center">
   <img src="Image/image5.png" alt="alt text" />
 </p>
 
-Figure 4 shows that Individuals are created for each class, and each class can have multiple individuals from other classes
+*Figure 4 shows that Individuals are created for each class, and each class can have multiple individuals from other classes.*
 
 #### SPARQL Query
 
