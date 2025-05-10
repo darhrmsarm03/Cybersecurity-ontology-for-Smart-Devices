@@ -77,4 +77,6 @@ Figure 3: describes the Data properties
   <img src="Image/image5.png alt="alt text" />
 </p>
 
+Figure 4: shows the Individuals are created for each class, and each class can have multiple individuals from other classes
+
 The project summarizes and describes the basic ontology scheme of a Smart home security Ontology using device sensory application process. The project was design using a software called Protege using OWL, RDFS, RDF, RDF GRAPH executing SPARQL queries to collect and manipulate data.
