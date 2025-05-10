@@ -61,4 +61,10 @@ Figure 2 describes the Object property of observes
 - Mode: displays which mode is applied to the device
 - Low/High Safety: describes the max and min limits of the expected value for a Sensor
 
+<p align="center">
+  <img src="Image/image3.png alt="alt text" />
+</p>
+
+Figure 3: describes the Data properties
+
 The project summarizes and describes the basic ontology scheme of a Smart home security Ontology using device sensory application process. The project was design using a software called Protege using OWL, RDFS, RDF, RDF GRAPH executing SPARQL queries to collect and manipulate data.
