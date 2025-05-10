@@ -43,15 +43,15 @@ This ontology is called a sensor network ontology for a smart home. It is a basi
 - Main Entity: a generic class for the physical items which is subdivided into the ontology Architecture and Devices.
 - Sensor: a subclass of the architecture for sensing.
 
-The Device class has three systems which are All Rooms, Fridge and PC. The Architecture is made of 3 individuals; Heating, Lighting and security systems
+The Device class has three systems which are All Rooms, Fridge, and PC. The Architecture is made of 3 individuals: Heating, Lighting, and security systems
 
 **Object Properties include**
 
 - connectedSystems: shows the relationship between a Device and Architecture
-- observedAttribute: displays which attributes is observed
+- observedAttribute: displays which attributes are observed
 - observes: the relationship between a sensor and an attribute that the sensor observes
-- onDevice: relationship between a system; like an example a Sensor and a device.
-- remarkedBy: show the relationship between a remark and a Sensor
+- onDevice: relationship between a system, for example, a Sensor, and a device.
+- remarkedBy: shows the relationship between a remark and a Sensor
 - attributeOf: shows the relationship between the Architecture and the Device
 
 <p align="center">
@@ -71,13 +71,13 @@ Figure 2 describes the Object property of observes
   <img src="Image/image3.png" alt="alt text" />
 </p>
 
-Figure 3: describes the Data properties
+Figure 3 describes the Data properties
 
 <p align="center">
   <img src="Image/image5.png" alt="alt text" />
 </p>
 
-Figure 4: shows the Individuals are created for each class, and each class can have multiple individuals from other classes
+Figure 4 shows that Individuals are created for each class, and each class can have multiple individuals from other classes
 
 #### SPARQL Query
 
